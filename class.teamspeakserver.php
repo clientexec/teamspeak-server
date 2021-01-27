@@ -22,7 +22,7 @@ class TeamspeakServer
      * @param String $password The superadmin password
      * @return TeamspeakServer
      */
-    function TeamspeakServer($host, $user, $password)
+    function __construct($host, $user, $password)
     {
         $this->host = $host;
         $this->user = $user;
